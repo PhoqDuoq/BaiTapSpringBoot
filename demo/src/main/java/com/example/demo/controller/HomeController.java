@@ -35,9 +35,9 @@ public class HomeController {
         return "our_team";
     }
 
-    @GetMapping("/testimontial")
-    public String testimontial() {
-        return "testimontial";
+    @GetMapping("/testimonial")
+    public String testimonial() {
+        return "testimonial";
     }
     @GetMapping("/contact")
     public String contact() {
